@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>sortItemButton_biggestPrice</name>
+   <tag></tag>
+   <elementGuidId>cdceb895-09e2-4f81-bcdd-4203099f33cf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Terjual 25'])[1]/following::button[4]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@data-unf = 'select-menu-item-btn' and @data-item-text = 'Harga Tertinggi']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bdab5db6-19a9-448f-8b18-debb92ad3f34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-nzq9o0</value>
+      <webElementGuid>3e871c8a-b428-4603-a744-60ae7e1fbe31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-unf</name>
+      <type>Main</type>
+      <value>select-menu-item-btn</value>
+      <webElementGuid>19a18cad-6224-48ce-9e34-72604b18f440</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-has-subitem</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>cc2c27c3-9d50-4789-92dc-f4cd6122b556</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-item-text</name>
+      <type>Main</type>
+      <value>Harga Tertinggi</value>
+      <webElementGuid>9218fad9-bfba-4b24-a951-f5fa6e6d4546</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Harga Tertinggi</value>
+      <webElementGuid>091b5d7c-c779-4cec-a9ad-0e3ecdc97e40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[6]/div[@class=&quot;css-b92tch e17suhym1&quot;]/div[@class=&quot;css-19os3da e83okfj4&quot;]/ul[@class=&quot;css-rxgulu&quot;]/li[@class=&quot;css-d2qf6r e83okfj5&quot;]/button[@class=&quot;css-nzq9o0&quot;]</value>
+      <webElementGuid>5a538751-a4fe-4fd9-bf80-bb2a48e4adee</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terjual 25'])[1]/following::button[4]</value>
+      <webElementGuid>fea15ab3-c258-413c-aa1b-5b6b932cfa70</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sinar Roster ASD'])[38]/following::button[4]</value>
+      <webElementGuid>42481daf-e466-4c9d-b359-02bb480d351f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[2]</value>
+      <webElementGuid>ffa98832-fa47-448f-9321-2df84d0c5d7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Alt'])[1]/preceding::button[2]</value>
+      <webElementGuid>1c5ef5aa-5737-4406-8935-7834ea41bc1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/button</value>
+      <webElementGuid>c7b2cdf7-d5e4-4156-9158-86c4adece926</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'Harga Tertinggi' or . = 'Harga Tertinggi')]</value>
+      <webElementGuid>a9091ca2-5ec1-4a91-ba65-5aaee188a4b7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

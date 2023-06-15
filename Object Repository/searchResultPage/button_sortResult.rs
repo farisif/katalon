@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_sortResult</name>
+   <tag></tag>
+   <elementGuidId>8aa43e9d-67ed-4e2c-b6fb-13440cefbe65</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@data-testid = 'result-header-wrapper']/div/div/button</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@aria-haspopup = 'listbox']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.css-1g467vj.e83okfj1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e91020ac-c52e-4152-8af0-c27a6cbe37a2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>listbox</value>
+      <webElementGuid>befafd3a-5c2c-4973-99fd-f29a65959548</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-unify</name>
+      <type>Main</type>
+      <value>Select</value>
+      <webElementGuid>e5928ff6-3a65-4fa5-b2f0-64afa06a4a2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>488ae278-9ad6-47b9-aa17-e808692f2c11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-1g467vj e83okfj1</value>
+      <webElementGuid>0527134d-c424-4bdd-9112-029b41fdf6cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Paling Sesuai</value>
+      <webElementGuid>f7254cad-cf19-47f9-90a8-803a96eb63f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;zeus-root&quot;)/div[@class=&quot;css-8atqhb&quot;]/div[@class=&quot;css-jau1bt&quot;]/div[@class=&quot;css-1c82svt&quot;]/div[@class=&quot;css-rjanld&quot;]/div[@class=&quot;css-k1aaub&quot;]/div[@class=&quot;css-16hrxnz&quot;]/div[@class=&quot;css-1ro2jof e83okfj0&quot;]/button[@class=&quot;css-1g467vj e83okfj1&quot;]</value>
+      <webElementGuid>7bea6c3c-2482-4cb3-a9f2-77e78aa03c50</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[31]</value>
+      <webElementGuid>80116a2b-15de-4740-a349-77c155174e34</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='zeus-root']/div/div[2]/div/div[2]/div[2]/div/div/button</value>
+      <webElementGuid>f3a56bde-f50e-48a4-bf93-a5add60b12bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Urutkan:'])[1]/following::button[1]</value>
+      <webElementGuid>64a38396-688b-4006-a161-f59ce5fc43b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('', '&quot;', 'asd', '&quot;', '')])[1]/following::button[1]</value>
+      <webElementGuid>da80eee9-39f9-4e90-be7a-cda4aa27bccd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dipromosikan oleh'])[1]/preceding::button[1]</value>
+      <webElementGuid>6bbce985-6227-40c4-8f39-6e54c2e36dca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/button</value>
+      <webElementGuid>40a2f7b8-7ccf-4f09-ac62-5e2ed4361609</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Paling Sesuai' or . = 'Paling Sesuai')]</value>
+      <webElementGuid>eaa855ec-1327-458b-bc32-8c4671cc28e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
