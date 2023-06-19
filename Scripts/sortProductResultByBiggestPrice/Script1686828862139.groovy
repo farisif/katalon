@@ -17,13 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def baseURL = 'https://www.tokopedia.com/'
-
 def keyword = 'oppo find x6 pro'
 
 def path
 
-WebUI.openBrowser((baseURL + 'search?&q=') + keyword)
+WebUI.openBrowser((GlobalVariable.baseURL + 'search?&q=') + keyword)
 
 WebUI.click(findTestObject('searchResultPage/button_sortResult'), FailureHandling.STOP_ON_FAILURE)
 
@@ -31,7 +29,7 @@ WebUI.click(findTestObject('searchResultPage/sortItemButton_biggestPrice'), Fail
 
 path = WebUI.getUrl(FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyMatch(path, (('^' + baseURL) + 'search?.*ob=4') + '.*', true, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyMatch(path, (('^' + GlobalVariable.baseURL) + 'search?.*ob=4') + '.*', true, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyEqual("Harga Tertinggi", WebUI.getText(findTestObject('searchResultPage/button_sortResult')), FailureHandling.CONTINUE_ON_FAILURE)
 

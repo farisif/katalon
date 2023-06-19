@@ -17,8 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def baseURL = 'https://www.tokopedia.com/'
-
 def keyword = 'oppo find x6 pro'
 
 def path
@@ -27,7 +25,7 @@ def minPrice = '15000000'
 
 def maxPrice = '19000000'
 
-WebUI.openBrowser(baseURL + 'search?&q=' + keyword)
+WebUI.openBrowser(GlobalVariable.baseURL + 'search?&q=' + keyword)
 
 WebUI.setText(findTestObject('searchResultPage/input_minPrice'), minPrice)
 
@@ -39,7 +37,7 @@ WebUI.sendKeys(findTestObject('searchResultPage/input_maxPrice'), Keys.chord(Key
 
 path = WebUI.getUrl(FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.verifyMatch(path, ((('^' + baseURL) + 'search?.*pmax=') + maxPrice + '.*pmin=' + minPrice + '.*'), true, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyMatch(path, ((('^' + GlobalVariable.baseURL) + 'search?.*pmax=') + maxPrice + '.*pmin=' + minPrice + '.*'), true, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyEqual(minPrice, WebUI.getAttribute(findTestObject('searchResultPage/input_minPrice'), 'value').replace('.', ''), FailureHandling.CONTINUE_ON_FAILURE)
 

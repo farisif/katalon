@@ -17,15 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def baseURL = 'https://www.tokopedia.com/'
-
 def keyword = 'oppo find x6 pro'
 
 def path
 
 def appliedSearchKeyword
 
-WebUI.openBrowser(baseURL)
+WebUI.openBrowser(GlobalVariable.baseURL)
 
 WebUI.setText(findTestObject('header/input_SeachProduct'), 'oppo find x6 pro')
 
@@ -35,7 +33,7 @@ path = WebUI.getUrl(FailureHandling.CONTINUE_ON_FAILURE)
 
 appliedSearchKeyword = WebUI.getAttribute(findTestObject('header/input_SeachProduct'), 'value')
 
-WebUI.verifyMatch(path, ((('^' + baseURL) + 'search?.*q=') + keyword.split(' ').join('%20')) + '.*', true, FailureHandling.CONTINUE_ON_FAILURE)
+WebUI.verifyMatch(path, ((('^' + GlobalVariable.baseURL) + 'search?.*q=') + keyword.split(' ').join('%20')) + '.*', true, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyEqual(appliedSearchKeyword, 'oppo find x6 pro', FailureHandling.CONTINUE_ON_FAILURE)
 
