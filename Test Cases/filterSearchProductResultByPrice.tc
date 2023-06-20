@@ -5,4 +5,56 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>0329d249-7cc5-474b-8ad0-c7da758ceae2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b36d742-2d69-4d83-acae-cea312b028db</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a76488e-a814-42f3-ab08-f8ca53e2fee6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>5b25352f-1e46-4110-b0f7-eb192459ac04</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>83911ca3-5022-4a97-8017-da4f4ef2e220</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'oppo find x6 pro'</defaultValue>
+      <description></description>
+      <id>3b36d742-2d69-4d83-acae-cea312b028db</id>
+      <masked>false</masked>
+      <name>keyword</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1a76488e-a814-42f3-ab08-f8ca53e2fee6</id>
+      <masked>false</masked>
+      <name>path</name>
+   </variable>
+   <variable>
+      <defaultValue>'15000000'</defaultValue>
+      <description></description>
+      <id>5b25352f-1e46-4110-b0f7-eb192459ac04</id>
+      <masked>false</masked>
+      <name>minPrice</name>
+   </variable>
+   <variable>
+      <defaultValue>'19000000'</defaultValue>
+      <description></description>
+      <id>83911ca3-5022-4a97-8017-da4f4ef2e220</id>
+      <masked>false</masked>
+      <name>maxPrice</name>
+   </variable>
 </TestCaseEntity>

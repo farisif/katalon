@@ -17,14 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def keyword = 'oppo find x6 pro'
-
-def path
-
-def minPrice = '15000000'
-
-def maxPrice = '19000000'
-
 WebUI.openBrowser(GlobalVariable.baseURL + 'search?&q=' + keyword)
 
 WebUI.setText(findTestObject('searchResultPage/input_minPrice'), minPrice)

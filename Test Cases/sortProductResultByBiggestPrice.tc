@@ -5,4 +5,30 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>f0cf9622-5d62-4a6f-8854-ece823923aed</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7ee5b261-986e-42fe-978b-c972bbf14462</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>12ba5e82-e6f4-45a9-ad91-2a0cba0b2a5a</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'oppo find x6 pro'</defaultValue>
+      <description></description>
+      <id>7ee5b261-986e-42fe-978b-c972bbf14462</id>
+      <masked>false</masked>
+      <name>keyword</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>12ba5e82-e6f4-45a9-ad91-2a0cba0b2a5a</id>
+      <masked>false</masked>
+      <name>path</name>
+   </variable>
 </TestCaseEntity>

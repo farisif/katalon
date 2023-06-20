@@ -17,6 +17,24 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/searchProduct</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e1868128-983b-497e-9c7c-78778ab663a3</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>421451f6-60fb-4276-a4ab-f20966c9d18a</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>57ee983f-7691-4478-8695-8721708da996</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>2147af07-fce0-4e95-9f48-498d5ea8fe3b</guid>
@@ -24,6 +42,30 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/filterSearchProductResultByPrice</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3b36d742-2d69-4d83-acae-cea312b028db</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1a76488e-a814-42f3-ab08-f8ca53e2fee6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5b25352f-1e46-4110-b0f7-eb192459ac04</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>83911ca3-5022-4a97-8017-da4f4ef2e220</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>ffc552a8-39c9-4817-8903-f153574b68fd</guid>
@@ -31,5 +73,17 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/sortProductResultByBiggestPrice</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7ee5b261-986e-42fe-978b-c972bbf14462</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>12ba5e82-e6f4-45a9-ad91-2a0cba0b2a5a</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

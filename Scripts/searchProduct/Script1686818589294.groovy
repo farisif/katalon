@@ -17,12 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-def keyword = 'oppo find x6 pro'
-
-def path
-
-def appliedSearchKeyword
-
 WebUI.openBrowser(GlobalVariable.baseURL)
 
 WebUI.setText(findTestObject('header/input_SeachProduct'), 'oppo find x6 pro')
